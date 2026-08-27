@@ -100,7 +100,7 @@ mvn spring-boot:run
 
 # Project startup guide using docker
 
-### 1. Clone the Repository
+###  Clone the Repository
 
 Clone the project:
 
@@ -111,6 +111,12 @@ Navigate into the project:
 cd email-campaign-management-api
 
 =================================
+
+### 1. Install Maven Dependencies
+
+From the project root directory, run:
+
+mvn clean install
 
 ### 2. Configure Environment
 
