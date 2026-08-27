@@ -1,0 +1,22 @@
+spring:
+  application:
+    name: email-campaign-management-api
+
+  datasource:
+    url: jdbc:postgresql://localhost:5432/email_campaign
+    username: postgres
+    password: Souvikp683@
+
+  jpa:
+    hibernate:
+      ddl-auto: validate
+
+  flyway:
+    enabled: true
+    locations: classpath:db/migration
+
+  profiles:
+    active: dev
+
+server:
+  port: 9000
